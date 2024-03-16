@@ -1,0 +1,83 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.headerphoto {
+    width: 1519px;
+    overflow: hidden;
+}
+
+.headerphoto img {
+    width: 1519px;
+    margin: -120px 0 -550px 0;
+}
+
+.gradient{
+	width: 1519px;
+	height: 100px;
+	/*background-color: gray;*/
+	background: linear-gradient(transparent, white);
+	position:absolute;
+	z-index: 2;
+	left:0px;
+	bottom:0px
+}
+
+.headertitle {
+	font-family: Arial; /*dasfgh*/
+	font-size: 45px;/*размер в пикселях*/
+	font-weight: 1000; /*толщина букв* от 100 до 1000*/
+	color: #000000;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: Arial; /*dasfgh*/
+	font-size: 35px;/*размер в пикселях*/
+	font-weight: 700;
+	color: #000000;
+	margin-left: 290px;
+	margin-top: 75px;
+	margin-bottom: 50px;
+	/*text-shadow: gray 1px 1px 3px;*/
+}
+
+.text{
+	font-family: Arial;
+	line-height: 20px;/*междустрочный интервал*/
+	letter-spacing: 1px;/*расстояние между буквами*/
+	text-indent: 25px;
+	margin-left: 100px;
+	width: 450px;
+}
+
+.subphoto{
+    width: 750px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 10px;
+}
+
+.subphoto img {
+    width: 750px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+.img-increase img {
+transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+}
+.img-increase img:hover{
+transform: scale(1.02);
+-webkit-transform: scale(1.02);
+-moz-transform: scale(1.02);
+-o-transform: scale(1.02);
+}
