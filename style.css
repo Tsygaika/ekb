@@ -68,8 +68,17 @@ body{
     align-items: center;
 }
 
+.video{
+	width:  200px;
+	display: flex;
+  	justify-content: center;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
 
-.img-increase img {
+/*.img-increase img {
 transition: all 0.3s ease-out;
 -moz-transition: all 0.3s ease-out;
 -o-transition: all 0.3s ease-out;
@@ -80,4 +89,5 @@ transform: scale(1.02);
 -webkit-transform: scale(1.02);
 -moz-transform: scale(1.02);
 -o-transform: scale(1.02);
-}
+}*/
+
