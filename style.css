@@ -3,6 +3,33 @@ body{
 	margin:0px;
 }
 
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.logo, .top_menu{
+	display:  inline-block;
+	vertical-align: middle;
+}
+
+.top_menu li{
+	display:  inline-block;
+	vertical-align: middle;
+}
+
+.top_menu a{
+	vertical-align: middle;
+	font-family: Arial;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.logo{
+	vertical-align: middle;
+}
+
 .headerphoto {
     width: 1519px;
     overflow: hidden;
@@ -25,7 +52,7 @@ body{
 }
 
 .headertitle {
-	font-family: Arial; /*dasfgh*/
+	font-family: Arial; /*шрифт*/
 	font-size: 45px;/*размер в пикселях*/
 	font-weight: 1000; /*толщина букв* от 100 до 1000*/
 	color: #000000;
@@ -70,9 +97,11 @@ body{
 
 .video{
 	display: flex;
-	margin-left: 500px;
-  	justify-content: right;
-    	margin-bottom: 100px;
+  	justify-content: center;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
 
 /*.img-increase img {
