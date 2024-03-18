@@ -70,6 +70,7 @@ body{
 
 .video{
 	display: flex;
+	margin_left: 500px;
   	justify-content: right;
     	margin-bottom: 100px;
 }
