@@ -70,8 +70,8 @@ body{
 
 .video{
 	display: flex;
-  	justify-content: center;
-    margin-bottom: 100px;
+  	justify-content: right;
+    	margin-bottom: 100px;
 }
 
 /*.img-increase img {
